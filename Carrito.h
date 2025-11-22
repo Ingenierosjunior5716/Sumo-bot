@@ -6,8 +6,8 @@ class Carrito {
     int in4 = 7;
     int PWM12 = 3;
     int PWM34 = 9;
-    int vel12 = 100;
-    int vel34 = 100;
+    int vel12 = 255;
+    int vel34 = 255;
 
   public: //Se declaran los atributos (void setup) y metodos (funciones) de nuestra clase
     //Atributos
@@ -61,4 +61,5 @@ class Carrito {
       digitalWrite(in3, LOW);
       digitalWrite(in4, LOW);
     }
+
 };
